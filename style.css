@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(40, 52, 107);
+}
+
+.section_phone {
+    background-image: url(img/mask-types.png);
+    width: 12%;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-left: 53rem;
+    margin-top: 200px;
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 68px;
+    margin-top: 30px;
+}
+
+.vector_one {
+    width: 190px;
+    height: 2px;
+    background-color: #55646B;
+    margin-left: 10px;
+    margin-top: 41px;
+}
+
+.vector_two {
+    width: 2px;
+    height: 199px;
+    background-color: #55646B;
+    margin-left: 105px;
+    margin-top: -40px;
+}
+
+.sirt_left {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 10px;
+    top: 108px;
+}
+
+.xar_left {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 33px;
+    top: 108px; 
+}
+
+.qyap_left {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 55px;
+    top: 108px;
+}
+
+.xach_left {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 78px;
+    top: 108px;
+}
+
+.boy_left {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 44px;
+    top: 88px;
+}
+
+
+.sirt_right {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 27px;
+    top: 108px;
+}
+
+.xar_right {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 51px;
+    top: 108px;
+}
+
+.qyap_right {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 73px;
+    top: 108px;
+}
+
+.xach_right {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 95px;
+    top: 108px;
+}
+
+.boy_rigth {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 61px;
+    top: 88px;
+}
+
+.input_left {
+    width: 85px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    border-radius: 25px;
+    border: 2px solid #55646B;
+}
+
+.input_right {
+    width: 85px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    top: 130px;
+    right: 27px;
+    border-radius: 25px;
+    border: 2px solid #55646B;
+}
+
+.time_one {
+    background-color: transparent;
+    position: absolute;
+    left: 5px;
+    top: 162px;
+}
+
+.time_two {
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+    top: 162px;
+}
+
+::placeholder {
+    color: #55646B;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.vector {
+    width: 100px;
+    height: 1px;
+    background-color: #55646B;
+    position: absolute;
+    left: 55px;
+    top: 178px;
+    
+}
+
+.vector_2 {
+    width: 100px;
+    height: 1px;
+    background-color: #55646B;
+    position: absolute;
+    left: 55px;
+    top: 200px;
+}
+
+.vector_3 {
+    width: 100px;
+    height: 1px;
+    background-color: #55646B;
+    position: absolute;
+    left: 55px;
+    top: 223px;
+}
+
+.vector_4 {
+    width: 100px;
+    height: 1px;
+    background-color: #55646B;
+    position: absolute;
+    left: 55px;
+    top: 246px;
+}
+
+.vector_5 {
+    width: 100px;
+    height: 1px;
+    background-color: #55646B;
+    position: absolute;
+    left: 55px;
+    top: 269px;
+}
+
+.vector_6 {
+    width: 100px;
+    height: 1px;
+    background-color: #55646B;
+    position: absolute;
+    left: 55px;
+    top: 292px;
+}
+
+.vector_7 {
+    width: 100px;
+    height: 1px;
+    background-color: #55646B;
+    position: absolute;
+    left: 55px;
+    top: 315px;
+}
+
+.btn_left {
+    top: 324px;
+    left: 10px;
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 65px;
+}
+
+.btn_left_two {
+    top: 348px;
+    left: 16px;
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #c90606;
+    border-radius: 25px;
+    width: 50px;
+
+}
+
+.btn_right {
+    top: 324px;
+    right: 24px;
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 65px;
+}
+
+.btn_right_two {
+    top: 348px;
+    right: 30px;
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #c90606;
+    border-radius: 25px;
+    width: 50px;
+}
+
+.vector_8 {
+    width: 190px;
+    height: 2px;
+    background-color: #55646B;
+    position: absolute;
+    left: 10px;
+    top: 372px;
+}
+
+.vector_9 {
+    width: 2px;
+    height: 122px;
+    background-color: #55646B;
+    position: absolute;
+    left: 105px;
+}
+
+.btn_tak {
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid #051ceb; 
+    background-color: transparent;
+    font-size: 12px;
+    left: 70px;
+    top: 340px;
+}
+
+.btn_tak_two {
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid #051ceb; 
+    background-color: transparent;
+    font-size: 12px;
+    right: 85px;
+    top: 340px
+}
+
+.end {
+    cursor: pointer;
+    position: absolute;
+    left: 82px;
+    top: 438px;
+    width: 47px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid green;
+    font-size: 11px;
+}
+
+.terz_left {
+    cursor: pointer;
+    position: absolute;
+    top: 380px;
+    left: 5px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.br_left {
+    cursor: pointer;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.hicun {
+    cursor: pointer;
+    position: absolute;
+    top: 403px;
+    left: 5px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.harur {
+    cursor: pointer;
+    position: absolute;
+    top: 403px;
+    left: 50px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.chors_tuxt {
+    cursor: pointer;
+    position: absolute;
+    top:425px;
+    left: 5px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.v_terz {
+    cursor: pointer;
+    position: absolute;
+    top:425px;
+    left: 50px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.terz_right {
+    cursor: pointer;
+    position: absolute;
+    top: 380px;
+    right: 21px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.br_right {
+    cursor: pointer;
+    position: absolute;
+    top: 380px;
+    right: 67px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.hicun_right {
+    cursor: pointer;
+    position: absolute;
+    top: 403px;
+    right: 21px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.harur_right {
+    cursor: pointer;
+    position: absolute;
+    top: 403px;
+    right: 67px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.chors_tuxt_right {
+    cursor: pointer;
+    position: absolute;
+    top: 425px;
+    right: 21px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
+
+.v_terz_right {
+    cursor: pointer;
+    position: absolute;
+    top: 425px;
+    right: 67px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #55646B;
+    width: 35px;
+}
